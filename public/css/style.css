@@ -1,0 +1,116 @@
+@font-face {
+  font-family: "roboto-bold";
+  src: url(police/Roboto/Roboto-Bold.ttf);
+}
+body {
+  font-size: x-large;
+  font-family: "roboto-bold", sans-serif, helvetica, Arial;
+}
+
+.page {
+  width: 500px;
+  margin: auto;
+  border: 1px solid black;
+  font-size: x-large;
+}
+
+header {
+  text-align: center;
+}
+
+.accueil {
+  text-align: center;
+  background-color: #F6F6F6;
+  padding-bottom: 70px;
+}
+
+.fonctionnement {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.restaurant_img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+button {
+  padding: 25px;
+  border-radius: 40px;
+  border: none;
+  font-size: 18px;
+  color: white;
+  background: linear-gradient(#E570DA, #A75CDC);
+}
+
+footer {
+  color: white;
+  background-color: #353535;
+  padding: 30px;
+}
+
+.accueil_location {
+  background-color: #EAEAEA;
+  padding: 20px;
+}
+
+.logo {
+  padding: 15px;
+}
+
+.restaurant_box {
+  border-radius: 20px;
+  width: 90%;
+  margin-bottom: 20px;
+}
+
+.fonctionnement_box {
+  background-color: #F6F6F6;
+  width: 85%;
+  border-radius: 20px;
+  margin-bottom: 25px;
+}
+.fonctionnement_box:hover {
+  background-color: #F5EDFF;
+}
+.fonctionnement_box:hover .iconefonc {
+  color: #9356DC;
+}
+
+.fonc:hover {
+  background-color: #F5EDFF;
+}
+
+.restaurant {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F6F6F6;
+  justify-content: center;
+  text-align: -webkit-center;
+}
+
+.shadow {
+  box-shadow: 1px 7px 15px #1f1f1f2a;
+}
+
+.restaurant_desc {
+  display: flex;
+  justify-content: space-between;
+  height: 90px;
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/*# sourceMappingURL=style.css.map */

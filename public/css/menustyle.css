@@ -1,0 +1,166 @@
+@font-face {
+  font-family: "roboto-bold";
+  src: url(css/public/police/Roboto/Roboto-Bold.ttf);
+}
+@font-face {
+  font-family: "shrikhand";
+  src: url(css/public/police/Shrikhand/Shrikhand-Regular.ttf);
+}
+@font-face {
+  font-family: "roboto-light";
+  src: url(css/public/police/Roboto/Roboto-Light.ttf);
+}
+header {
+  text-align: center;
+}
+
+body {
+  font-size: x-large;
+  font-family: "roboto-light", sans-serif;
+}
+
+strong {
+  font-family: "roboto-bold";
+}
+
+.page {
+  width: 500px;
+  margin: auto;
+}
+
+.background_img {
+  width: 100%;
+  height: auto;
+}
+
+.background {
+  height: 300px;
+}
+
+.menu {
+  background-color: #F6F6F6;
+  padding-bottom: 70px;
+}
+
+.menu_categorie-plat {
+  background-color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 20px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+  overflow: hidden;
+}
+
+.btn {
+  padding: 30px;
+  text-align: center;
+  background-color: #F6F6F6;
+}
+
+button {
+  padding: 25px;
+  border-radius: 40px;
+  border: none;
+  font-size: 18px;
+  color: white;
+  background: linear-gradient(#E570DA, #A75CDC);
+}
+
+footer {
+  color: white;
+  background-color: #353535;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerstyle {
+  width: 500px;
+  margin: auto;
+  padding: 30px;
+}
+
+.padleft {
+  padding-left: 20px;
+}
+
+.menu_title {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "shrikhand";
+  background-color: #F6F6F6;
+  border-radius: 30px;
+  position: relative;
+}
+
+.hearticone {
+  padding-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hearticone--hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#E570DA), to(#A75CDC));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.menu_categorie-plat--price {
+  align-self: flex-end;
+  margin: 20px;
+  font-family: "roboto-bold";
+}
+
+.namecat {
+  width: fit-content;
+}
+
+.highlight {
+  border-bottom: 5px solid #99E2D0;
+  width: 60%;
+  margin-top: 5px;
+}
+
+.shadow {
+  box-shadow: 1px 7px 15px #1f1f1f2a;
+}
+
+.menu_categorie {
+  padding-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.menu_categorie_plat--hover {
+  background-color: #99e2d0;
+  color: white;
+  min-width: 100px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu_categorie_plat--hover:hover .menu_categorie_plat--hover {
+  display: block;
+}
+
+.menu_categorie-plat--desc {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  flex: 0 1 100%;
+}
+
+.menu_categorie-plat:hover .menu_categorie_plat--hover {
+  display: block;
+}
+
+/*# sourceMappingURL=menustyle.css.map */
